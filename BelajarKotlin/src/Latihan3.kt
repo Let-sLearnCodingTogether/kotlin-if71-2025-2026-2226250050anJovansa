@@ -1,8 +1,8 @@
 fun main() {
-    val name: String = "Jovansa Putra Laksana"
-    val npm: String = "2226250050"
-    var age: UInt = 0U
-    age = 21U
+    val firstName: String = "Jovansa"
+    val lastName: String = "Putra Laksana"
+    var score: Int = 0
+    score = 1
 
-    println("Mahasiswa dengan : ${npm}, memiliki nama : ${name}, memiliki usia : ${age}")
+    println("Nama lengkap : ${firstName} ${lastName}, Score : ${score}")
 }
